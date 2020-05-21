@@ -18,7 +18,8 @@ from django.urls import path
 from django.conf.urls import url
 from studentsapp import views
 from django.urls import include
-#from test2api import views as v2
+from hotelapi import views as v2
+
 from func1api import views as v3
 
 urlpatterns = [
