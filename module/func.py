@@ -99,7 +99,7 @@ def sendButton(event):  #按鈕樣版
         message = TemplateSendMessage(
             alt_text='按鈕樣板',
             template=ButtonsTemplate(
-                     thumbnail_image_url = 'https://i.imgur.com/CUG0Aof.png',  #顯示的圖片
+                     thumbnailImageUrl = 'https://i.imgur.com/CUG0Aof.png',  #顯示的圖片
                      title  =  'demo' ,
                      text  =  'pizzo hut '
                 actions=[
